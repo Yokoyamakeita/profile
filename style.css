@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+main{
+    width: 1000px;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    background: black;
+    color: whitesmoke;
+    padding: 0.25em;
+    padding-left: 0.5em;
+    margin-top: 1.5em;
+}
+h3{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    padding: 0.25em;
+    padding-left: 0.5em;
+}
+p{
+    margin-left: 1em;
+}
+.en{
+    font-size: 0.8em;
+    font-family: italic;
+    font-weight: normal;
+    color: lightgray;
+    margin-top: 1em;
+    padding-left: 0.5em;
+}
+.profile{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.myname p{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.content{
+    display: inline-block;
+    margin: auto;
+    border-radius: 30%;
+}
